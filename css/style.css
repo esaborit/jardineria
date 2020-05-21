@@ -178,18 +178,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	margin-bottom: 40px;
 	color: #fff;
 }
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-sm-min) { 
+
+@media (min-width: 1024px) {
 	.intro h1 {
 		color: #fff;
-		font-size: 64px;
+		font-size: 64px !important;
 		font-weight: 700;
-			letter-spacing: -1px;
-	margin-top: 0;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+		letter-spacing: -1px;
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+	header .intro-text {
+	    padding-top: 320px !important;
+	    padding-bottom: 200px;
+	    text-align: center;
 	}
 }
+
+
 
 .intro h1 {
 	color: #fff;
@@ -212,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 header .intro-text {
-	padding-top: 320px;
+	padding-top: 280px;
 	padding-bottom: 200px;
 	text-align: center;
 }
