@@ -82,8 +82,10 @@ hr {
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
 }
+
+
 #menu a.navbar-brand {
-	font-size: 26px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #eee;
 }
@@ -95,7 +97,7 @@ hr {
 	letter-spacing: 1px;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 4px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #6aaf08;
@@ -159,7 +161,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) top center no-repeat;
+	background: url(../img/intro-bg1.jpg) top center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -194,6 +196,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	    padding-bottom: 200px;
 	    text-align: center;
 	}
+	#menu a.navbar-brand {
+	    font-size: 26px;
+	    font-weight: 600;
+	    color: #eee;
+	}
+	#menu.navbar-default .navbar-nav > li > a {
+	    margin: 9px 20px 0 20px;
+	}
 }
 
 
@@ -219,7 +229,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 header .intro-text {
-	padding-top: 280px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
 }
@@ -511,6 +521,10 @@ color: #777;
 }
 #contact .contact-item {
 	margin: 20px 0 40px 0;
+}
+#contact #google-map {
+  height: 300px;
+  margin-bottom: 20px;
 }
 /* Footer Section*/
 #footer {

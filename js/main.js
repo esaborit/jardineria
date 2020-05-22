@@ -20,7 +20,7 @@ function main() {
 	
     // Show Menu on Book
     $(window).bind('scroll', function() {
-        var navHeight = $(window).height() - 500;
+        var navHeight = $(window).height() - 900;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
         } else {
@@ -30,7 +30,7 @@ function main() {
 
     $('body').scrollspy({ 
         target: '.navbar-default',
-        offset: 80
+        offset: 0
     });
 
 	// Hide nav on click
